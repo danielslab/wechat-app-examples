@@ -1,7 +1,7 @@
 function formatTime(date) {
-  let year = date.getFullYear()
-  let month = date.getMonth() + 1
-  let day = date.getDate()
+  let year = date.getFullYear() //当天年份
+  let month = date.getMonth() + 1 //月份，从0开始
+  let day = date.getDate() //当月的天,当天日期第几天
 
   let hour = date.getHours()
   let minute = date.getMinutes()
